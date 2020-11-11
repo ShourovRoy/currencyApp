@@ -21,7 +21,7 @@ const App = () => {
 
   const buttonPressed = (currency) => {
     if (!inputValue) {
-      Snackbar.show({
+      return Snackbar.show({
         text: 'Please enter a value',
         backgroundColor: '#ea3337',
         color: '#fff',
